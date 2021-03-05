@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - bonyolult űrlap</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form action="button">
+  <fieldset>
+    <legend>Interesting application form <img src="https://p7.hiclipart.com/preview/303/173/296/smiley-emoticon-facebook-messenger-emoji-thumbtack.jpg"></legend>
+    <fieldset>
+      <legend>What is your name?</legend>
+      <input type="text" id="nameInput">
+    </fieldset>
+
+    <fieldset>
+      <legend>What is your favorite color?</legend>
+
+      <div class="checkBoxContainer">
+        <input type="checkbox" id="redColorCB">
+        <label for="redColorCB">Red</label>
+      </div>
+
+      <div class="checkBoxContainer">
+        <input type="checkbox" id="greenColorCB">
+        <label for="greenColorCB">Green</label>
+      </div>
+
+      <div class="checkBoxContainer">
+        <input type="checkbox" id="blueColorCB">
+        <label for="blueColorCB">Blue</label>
+      </div>
+
+      <div class="checkBoxContainer">
+        <input type="checkbox" id="otherColorCB">
+        <label for="otherColorCB">Other</label>
+        <input type="text" id="oterColorTextInput">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Would you like to become a developer?</legend>
+
+      <div class="radioContainer">
+        <input type="radio" id="yesDevCB" name="devRadio">
+        <label for="yesDevCB">Yes</label>
+      </div>
+
+      <div class="radioContainer">
+        <input type="radio" id="anoDevCB" name="devRadio">
+        <label for="anoDevCB">Ano</label>
+      </div>
+
+      <div class="radioContainer">
+        <input type="radio" id="igenDevCB" name="devRadio">
+        <label for="igenDevCB">Igen</label>
+      </div>
+
+      <div class="radioContainer">
+        <input type="radio" id="kinaiIgenDevCB" name="devRadio">
+        <label for="kinaiIgenDevCB">是</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Why would you like to become a developer?</legend>
+
+      <textarea name="whyDeveloper" id="devTextArea" cols="1" rows="10"></textarea>
+    </fieldset>
+
+    <button type="button">Submit</button>
+
+  </fieldset>
+</form>
+<!-- partial -->
+  
+</body>
+</html>

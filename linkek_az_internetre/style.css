@@ -1,0 +1,12 @@
+.hivatkozas {
+	display: block;
+	margin-bottom: 10px;
+	font-family: "Sen";
+	font-size: 34px;
+
+	color: green;
+}
+.hivatkozas:hover {
+	color: lime;
+	text-decoration: none;
+}

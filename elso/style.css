@@ -1,0 +1,24 @@
+div {
+	padding: 30px;
+	margin: 20px;
+	border: 1px solid;
+	font-family: 'Kalam', cursive;
+}
+
+h1 {
+	color: #008000;
+	background: #f4f4f4;
+	margin: 40px 200px 60px 200px;
+	padding: 20px;
+	width: 500px;
+	height: 150px;
+	text-align: center;
+	font-size: 52px;
+}
+p {
+	margin: 0px;
+}
+
+.felsorolasCelsoSor {
+	background-color: lime;
+}

@@ -1,0 +1,21 @@
+h1 {
+  color: orange;
+}
+h2 {
+  color: purple;
+}
+p {
+  width: 500px;
+}
+ul {
+  list-style-type: square;
+}
+ol {
+  list-style-type: upper-roman;
+}
+.violet {
+  color: violet;
+}
+.underlined {
+  text-decoration: underline;
+}

@@ -1,0 +1,29 @@
+img {
+  width: 20px;
+}
+input {
+  margin-top: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+form {
+  width: 500px;
+}
+.checkBoxContainer {
+  display: block;
+  position: relative;
+  padding-left: 0px;
+}
+#oterColorTextInput {
+  margin-left: 10px;
+}
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+textarea {
+  width: 100%;
+}

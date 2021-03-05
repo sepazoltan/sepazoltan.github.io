@@ -1,0 +1,30 @@
+main {
+	border: 4px;
+	border-style: solid;
+	border-color: #4285f4;
+	text-align: center;
+	width: 300px;
+	margin-bottom: 20px;
+}
+
+p {
+	font-weight: bold;
+	font-size: 36px;
+	font-family: "Kalam", cursive;
+	margin: 0px;
+	padding: 50px;
+	color: white;
+}
+
+.north {
+	background: #e67676;
+}
+.east {
+	background: #f2f062;
+}
+.south {
+	background: #a9e6e6;
+}
+.west {
+	background: #7692e4;
+}

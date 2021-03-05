@@ -1,0 +1,28 @@
+main {
+	border: 4px;
+	border-style: solid;
+	border-color: #4285f4;
+	text-align: center;
+	width: 300px;
+}
+
+p {
+	font-weight: bold;
+	font-size: 24px;
+	margin: 0px;
+	padding: 50px;
+	color: white;
+}
+
+#north {
+	background: #E67676;
+}
+#east {
+	background: #F2F062;
+}
+#south {
+	background: #A9E6E6;
+}
+#west {
+	background: #7692E4;
+}

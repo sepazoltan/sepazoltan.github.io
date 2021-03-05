@@ -1,0 +1,8 @@
+.kep {
+	width: 300px;
+	margin: 50px;
+}
+.kep:hover {
+	width: 400px;
+	margin: 0;
+}
