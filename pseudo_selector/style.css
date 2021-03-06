@@ -1,0 +1,13 @@
+.Container {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Card {
+    border: 2px solid black;
+    margin-top: -2px;
+    text-align: center;
+}
+.Card:hover {
+    background-color: orange;
+}
